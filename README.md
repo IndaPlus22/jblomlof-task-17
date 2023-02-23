@@ -13,3 +13,6 @@ I did some last minute edits in `for_kattis` to probably make it faster, but the
 
 `rattstavning` is full of multi-line comments, theese are either ideas i had that sucked, theese can be ignored, or meta-data about program and functions.
 
+### To run incase you don't belive it's working
+Be in the [test](rattstavning/test/) folder and run `cargo r --release`.  It will print all the results to the terminal aswell as some time diagnostics.  
+The test data consists of all the test files provided in task-instructions-repo combined to one file (They seemed to have the same target_words so I only combined the misspelled words).
