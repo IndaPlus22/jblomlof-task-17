@@ -9,6 +9,34 @@ use std::io::prelude::*;
  * Using input templete provided in task.
  * See https://github.com/IndaPlus22/AssignmentInstructions-Rust/tree/master/dynprog-task-17
  */
+
+/*
+TODO:
+make a trie and we can know some shit about it. Like they "tell you to" in theory.
+IE say we have words he and hej and hes
+    h
+    |
+    e
+  /   \
+s       j
+
+say we want to compare theese words with the word s.
+
+since they all share the same prefix, best case he, hes, and hej got the same distance
+// he and hes is the same distance to s.
+but most often the deeper we go into the trie the higher distance, (if our compare word is shorter.)
+
+If we want to compare a longer word. eg.
+
+say helloj
+if we know the distance between he and helloj (4)
+we know the childs are the same or lower so we search them.
+
+SO to sum up.
+With a trie we search until a node is 
+
+ */
+
 /*
 PLAN CHANGED. FUCK THIS METHOD
 LEVENSTEIN HERE I COME.
